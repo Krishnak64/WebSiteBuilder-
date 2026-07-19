@@ -66,7 +66,6 @@ An AI-powered website builder built with the **MERN stack**, integrating the **O
 
 ## 📁 Project Structure
 
-```
 WebSiteBuilder/
 ├── client/                          # React frontend
 │   ├── src/
@@ -117,7 +116,8 @@ WebSiteBuilder/
 │   └── package.json
 │
 └── README.md
----
+
+
 
 
 ## ✅ Prerequisites
