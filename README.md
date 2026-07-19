@@ -67,57 +67,58 @@ An AI-powered website builder built with the **MERN stack**, integrating the **O
 ## 📁 Project Structure
 
 ```
-      WebSiteBuilder/
-      ├── client/                          # React frontend
-      │   ├── src/
-      │   │   ├── assets/
-      │   │   ├── components/
-      │   │   │   └── LoginModal.jsx       # Login/auth modal
-      │   │   ├── hooks/
-      │   │   │   └── useGetCurrentUser.jsx
-      │   │   ├── pages/
-      │   │   │   ├── Dashboard.jsx        # User dashboard
-      │   │   │   ├── Editor.jsx           # Website editor page
-      │   │   │   ├── Generate.jsx         # AI generation page
-      │   │   │   ├── Home.jsx             # Landing page
-      │   │   │   ├── LiveSite.jsx         # Published/live site view
-      │   │   │   └── Pricing.jsx          # Pricing/plans page
-      │   │   ├── redux/
-      │   │   │   ├── store.js             # Redux store config
-      │   │   │   └── userSlice.js         # User auth/state slice
-      │   │   ├── App.jsx
-      │   │   ├── firebase.js              # Firebase config/init
-      │   │   ├── index.css
-      │   │   └── main.jsx
-      │   ├── index.html
-      │   ├── vite.config.js
-      │   ├── eslint.config.js
-      │   ├── .env
-      │   ├── .gitignore
-      │   └── package.json
-      │
-      ├── server/                          # Express backend
-      │   ├── config/                      # DB & service configuration
-      │   ├── controllers/
-      │   │   ├── billing.controller.js    # Billing/subscription logic
-      │   │   ├── stripeWebhook.controller.js
-      │   │   └── user.controllers.js
-      │   ├── middlewares/
-      │   │   └── isAuth.js                # JWT auth middleware
-      │   ├── models/                      # Mongoose schemas
-      │   ├── routes/
-      │   │   ├── user.routes.js
-      │   │   └── website.routes.js
-      │   ├── utils/
-      │   │   ├── plan.js                  # Subscription plan helpers
-      │   │   └── stripe.js                # Stripe client setup
-      │   ├── index.js                     # Server entry point
-      │   ├── .env
-      │   ├── .gitignore
-      │   └── package.json
-      │
-      └── README.md
+WebSiteBuilder/
+├── client/                          # React frontend
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   └── LoginModal.jsx       # Login/auth modal
+│   │   ├── hooks/
+│   │   │   └── useGetCurrentUser.jsx
+│   │   ├── pages/
+│   │   │   ├── Dashboard.jsx        # User dashboard
+│   │   │   ├── Editor.jsx           # Website editor page
+│   │   │   ├── Generate.jsx         # AI generation page
+│   │   │   ├── Home.jsx             # Landing page
+│   │   │   ├── LiveSite.jsx         # Published/live site view
+│   │   │   └── Pricing.jsx          # Pricing/plans page
+│   │   ├── redux/
+│   │   │   ├── store.js             # Redux store config
+│   │   │   └── userSlice.js         # User auth/state slice
+│   │   ├── App.jsx
+│   │   ├── firebase.js              # Firebase config/init
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── index.html
+│   ├── vite.config.js
+│   ├── eslint.config.js
+│   ├── .env
+│   ├── .gitignore
+│   └── package.json
+│
+├── server/                          # Express backend
+│   ├── config/                      # DB & service configuration
+│   ├── controllers/
+│   │   ├── billing.controller.js    # Billing/subscription logic
+│   │   ├── stripeWebhook.controller.js
+│   │   └── user.controllers.js
+│   ├── middlewares/
+│   │   └── isAuth.js                # JWT auth middleware
+│   ├── models/                      # Mongoose schemas
+│   ├── routes/
+│   │   ├── user.routes.js
+│   │   └── website.routes.js
+│   ├── utils/
+│   │   ├── plan.js                  # Subscription plan helpers
+│   │   └── stripe.js                # Stripe client setup
+│   ├── index.js                     # Server entry point
+│   ├── .env
+│   ├── .gitignore
+│   └── package.json
+│
+└── README.md
 ---
+
 
 ## ✅ Prerequisites
 
