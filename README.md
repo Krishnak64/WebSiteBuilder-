@@ -196,7 +196,7 @@ You'll need **two terminals** — one for the backend and one for the frontend.
 
 ```bash
 cd server
-npm run dev
+node index.js
 ```
 
 The server will start on `http://localhost:5000` (or the `PORT` you set).
